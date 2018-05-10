@@ -1,5 +1,5 @@
 WITH c AS(
-SELECT TOP 1 *
+SELECT species
 FROM characters
 ORDER BY id DESC)
 UPDATE c SET 'Martin';
